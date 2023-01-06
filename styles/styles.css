@@ -6,7 +6,7 @@
 .header-p{
     color: #f7f7f7;
     width: 626px;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 
 p{
@@ -17,7 +17,7 @@ p{
 
 button{
     color: #fff;
-    background: #f1863a;
+    background: #fd842e;
     padding: 5px 20px;
     font-size: 25px;
     box-shadow: 0 0 65px 6px #d6e7e7;
@@ -29,7 +29,7 @@ button{
     transform-origin: left 5px;
 }
 button:hover{
-    color: #ff8025;
+    color: #ff6d05;
     background: rgb(255, 255, 255); 
 
 }
