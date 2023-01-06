@@ -5,9 +5,14 @@
 }
 .header-p{
     color: #f7f7f7;
+    width: 626px;
+    margin-bottom: 20px;
 }
 
-p{font-size: 20px;color: gray;margin: 25px auto;}
+p{
+    font-size: 20px;color: gray;margin: 25px auto;
+}
+
 button{
     color: #fff;
     background: #f1863a;
@@ -18,20 +23,24 @@ button{
     border: none;
     border-radius: 6px;
     height: 50px;
-    transition: 1s;
+    transition: .8s;
+    transform-origin: left 0;
 }
 button:hover{
     color: #ff8025;
-    background: rgb(255, 255, 255);
-   
+    background: rgb(255, 255, 255); 
+
 }
+
 button:focus{
     color: rgb(255, 255, 255);
-    background: #dc915b;
-
-
+    background: #090807;
     border: 1px solid yellow;
 
+}
+.sticky-btn{
+    position: sticky;
+    top: -250px;
 }
 
 .title{
@@ -40,11 +49,48 @@ button:focus{
 }
 
 .description{
-
     font-size: 15px;
     color: gray;
     margin: 25px auto;
 }
+
+/* header */
+.header-heading{
+    padding: 20px;
+    
+}
+header {
+    position: sticky;
+    z-index: 10;
+    text-align: center;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    padding: 10px 0px 0;
+    top: -180px;
+}
+header nav {
+    margin: 0px 0;
+    text-align: center;
+    background: linear-gradient(163deg,transparent, rgb(51 183 51 / 80%) 10%, red 40% ,#15a980 70%,transparent 100%);
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul li{
+    padding: 22px;
+    margin: auto 21px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+
 
 /* Banner section */
 .banner{
@@ -54,6 +100,9 @@ button:focus{
     background-position: center center;
     background-size: cover;
     padding: 243px 0;
+    position: sticky;
+    top: -621px;
+    z-index: 9;
 }
 .banner-caption{
     width: 600px;
@@ -70,9 +119,12 @@ button:focus{
 /* donate today */
 
 .donate-today{
+    text-align: center;
     width: 800px;
     margin: 80px auto;
-    text-align: center;
+    position: sticky;
+    top: -245px;
+    z-index: 7;
 }
 
 .fixed-amount{
@@ -84,10 +136,10 @@ button:focus{
     /* margin: auto; */
 }
 .fixed-amount .amount{
-   border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     padding: 46px 28px;
-    font-weight: 900;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 20px;
     background-color: #f7f7f7;
     box-sizing: padding-box;
 }
@@ -115,6 +167,9 @@ button:focus{
     width: 830px;
     margin: auto;
     text-align: center;
+    position: sticky;
+    top: -139px;
+    z-index: 6;
 }
 .donate-caption{
     margin: auto;
@@ -192,6 +247,12 @@ width: 626px;
 margin: 51px  auto;
 
 text-align: center;
+
+position: sticky;
+
+top: -131px;
+
+z-index: 5;
 }
 
 
