@@ -72,6 +72,7 @@ header {
     padding: 10px 0px 0;
     top: -180px;
 }
+
 header nav {
     margin: 0px 0;
     text-align: center;
@@ -103,7 +104,6 @@ nav ul li a{
     background-position: center center;
     background-size: cover;
     padding: 243px 0;
-    position: sticky;
     top: -621px;
     z-index: 9;
 }
@@ -125,7 +125,6 @@ nav ul li a{
     text-align: center;
     width: 800px;
     margin: 80px auto;
-    position: sticky;
     top: -245px;
     z-index: 7;
 }
@@ -170,7 +169,6 @@ nav ul li a{
     width: 830px;
     margin: auto;
     text-align: center;
-    position: sticky;
     top: -139px;
     z-index: 6;
 }
