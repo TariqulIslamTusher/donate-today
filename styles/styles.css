@@ -10,7 +10,9 @@
 }
 
 p{
-    font-size: 20px;color: gray;margin: 25px auto;
+    font-size: 20px;
+    color: gray;
+    margin: 25px auto;
 }
 
 button{
@@ -52,6 +54,7 @@ button:focus{
     font-size: 15px;
     color: gray;
     margin: 25px auto;
+    width: 625px;
 }
 
 /* header */
@@ -72,7 +75,7 @@ header {
 header nav {
     margin: 0px 0;
     text-align: center;
-    background: linear-gradient(163deg,transparent, rgb(51 183 51 / 80%) 10%, red 40% ,#15a980 70%,transparent 100%);
+    background: linear-gradient(163deg,transparent, rgb(51 183 51 / 80%) 10%,transparent 30%, red 40% ,transparent55% , #15a980 70%,transparent 100%);
 }
 
 
