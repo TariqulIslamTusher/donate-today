@@ -50,7 +50,7 @@ button:focus{
     font-weight: 700 !important;
 }
 
-.description{
+.description,.p-description{
     font-size: 15px;
     color: gray;
     margin: 25px auto;
@@ -360,7 +360,12 @@ media quary -----------
         box-sizing: border-box;
     }
     .description {
-        margin: 20px 0;
+        margin: 20px 30px;
+        font-size: 15px;
+        width: fit-content;
+    }
+    .p-description {
+        margin: 20px 0px;
         font-size: 15px;
         width: fit-content;
     }
