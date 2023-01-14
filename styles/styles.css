@@ -54,7 +54,7 @@ button:focus{
     font-size: 15px;
     color: gray;
     margin: 25px auto;
-    width: 625px;
+    width: fit-content;
 }
 
 /* header */
@@ -78,7 +78,6 @@ header nav{
     text-align: center;
     background: linear-gradient(163deg,transparent, rgb(51 183 51 / 80%) 10%,transparent 30%, red 40% ,transparent55% , #15a980 70%,transparent 100%);
 }
-
 
 nav ul{
     display: flex;
@@ -313,4 +312,108 @@ footer em{
 footer a{
     text-decoration: none;
     color: white;
+}
+
+/* 
+media quary -----------
+----------------------- */
+
+@media screen and (max-width:768px){
+    .header-p {
+        width: fit-content;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    header nav {
+        margin: -47px 0 0 0;
+    }
+    .banner-caption {
+        width: fit-content;
+        padding:5px 10px;
+    }
+    .banner-caption h1 {
+        
+        font-size: 25px;
+            }
+    button{
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .title {
+        font-size: 25px;
+       
+    }
+    .donate-today{
+        width: fit-content ;
+    }
+    .fixed-amount {
+        gap: 10px;
+    }
+    .fixed-amount .amount {
+        
+        padding: 15px;
+        
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+    .description {
+        margin: 20px 0;
+        font-size: 15px;
+        width: fit-content;
+    }
+    .taka-input {
+       
+        width: fit-content;
+        padding: 0px 50px;
+       
+    }
+
+    .donate-plan {
+        width: fit-content;
+    }
+    .donate-caption {
+        width: fit-content;
+    }
+    .plan-box {       
+        margin: 30px;
+        flex-direction: column;
+    }
+
+
+    .blog-section {
+        width: fit-content;
+        flex-direction: column-reverse;
+    }
+    .second-blog{
+        flex-direction: column !important;
+    }
+    .blog {
+        width: 90%;
+    }
+    .blog-img {
+        width: 90%;
+        text-align: center;
+        margin:0 30px;
+    }
+    .blog-img img {
+        width: 100%;
+        height: 351px;
+        object-fit: cover;
+    }
+    .update{
+        width: fit-content;
+    }
+    .input {
+
+        flex-direction: column;
+    
+        width: fit-content;
+       
+        gap: 15px;
+      
+    }
+    
 }
